@@ -26,14 +26,14 @@ int[] GetArrayFromString(string arrayAsString)
 // 	}
 // }
 
-System.Console.WriteLine("Введите координаты первой точки");
+System.Console.WriteLine("Введите координаты первой точки(испоьзуйте , и пробел как разделитель)");
 int [] Apoint = GetArrayFromString(Console.ReadLine());
-System.Console.WriteLine("Введите координаты второй точки");
+System.Console.WriteLine("Введите координаты второй точки (испоьзуйте , и пробел как разделитель)");
 int [] Bpoint = GetArrayFromString(Console.ReadLine());
 
-void DistanceBetwinTwoPoints (int array1, int array2)
+void DistanceBetwinTwoPoints (int[] array1, int[] array2)
 {
-	System.Console.WriteLine(Math.Sqrt(Math.Pow(array2[0]-array1[0])+Math.Pow(array2[1]-array1[1])));
+	System.Console.WriteLine(Math.Sqrt(Math.Pow(array2[0]-array1[0], 2)+Math.Pow(array2[1]-array1[1], 2)));
 }
-// System.Console.WriteLine(Math.Sqrt(Math.Pow(array2[0]-array1[0])+Math.Pow(array2[1]-array1[1])));
+
 DistanceBetwinTwoPoints(Apoint, Bpoint);

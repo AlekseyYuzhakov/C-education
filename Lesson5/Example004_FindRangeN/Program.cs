@@ -35,8 +35,8 @@ System.Console.Write("Введите максимальное значения �
 int z = int.Parse(System.Console.ReadLine());
 System.Console.WriteLine();
 System.Console.Write("Введите значения между которыми искать ");
-int n = int.Parse(System.Console.Read());
-int v = int.Parse(System.Console.Read());
+int n = int.Parse(System.Console.ReadLine());
+int v = int.Parse(System.Console.ReadLine());
 System.Console.WriteLine();
 
 FindInArray(GetArray(x, y, z), n, v);

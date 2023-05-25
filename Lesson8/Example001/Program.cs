@@ -88,7 +88,7 @@ void task53()
 
 }
 
-// task53();
+task53();
 
 void ReversRowsColumns(int[,] Array)
 {
@@ -118,7 +118,7 @@ void task55()
 
 }
 
-// task55();
+task55();
 
 // Задача 59: Задайте двумерный массив из целых чисел. Напишите программу, которая удалит строку и столбец, на пересечении которых расположен наименьший элемент массива.
 // Например, задан массив:
@@ -195,6 +195,7 @@ task59();
 
 
 // Dictionary<int, int> dict = new Dictionary<int, int>();
+
 // for (int i = 0; i < 10; i++)
 // {
 //     Console.ForegroundColor = (ConsoleColor)i;
